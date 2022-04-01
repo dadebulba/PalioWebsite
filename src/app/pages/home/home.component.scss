@@ -6,3 +6,17 @@
     z-index: 0;
     filter: brightness(0.7);
 }
+
+.bg-gif:before {
+    content: "";
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../../assets/images/intro.gif');
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+}
