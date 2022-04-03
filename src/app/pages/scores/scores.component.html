@@ -1,1 +1,56 @@
-<p>scores works!</p>
+<section class="hero is-primary">
+    <div class="hero-body">
+        <p class="title">
+            Punteggi Calcetto
+        </p>
+        <p class="subtitle">
+            Classifica ufficiale
+        </p>
+    </div>
+</section>
+<section class="section">
+    <table class="table ml-auto mr-auto">
+        <thead>
+            <tr>
+                <th><abbr title="Position">Posizione</abbr></th>
+                <th>Squadra</th>
+                <th><abbr title="Played">Giocate</abbr></th>
+                <th><abbr title="Won">Vinte</abbr></th>
+                <th><abbr title="Drawn">Pareggiate</abbr></th>
+                <th><abbr title="Lost">Perse</abbr></th>
+                <th><abbr title="Goals for">Gol Fatti</abbr></th>
+                <th><abbr title="Goals against">Gol subiti</abbr></th>
+                <th><abbr title="Goal difference">Differenza reti</abbr></th>
+                <th><abbr title="Points">Punti</abbr></th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th><abbr title="Position">Posizione</abbr></th>
+                <th>Squadra</th>
+                <th><abbr title="Played">Giocate</abbr></th>
+                <th><abbr title="Won">Vinte</abbr></th>
+                <th><abbr title="Drawn">Pareggiate</abbr></th>
+                <th><abbr title="Lost">Perse</abbr></th>
+                <th><abbr title="Goals for">Gol Fatti</abbr></th>
+                <th><abbr title="Goals against">Gol subiti</abbr></th>
+                <th><abbr title="Goal difference">Differenza reti</abbr></th>
+                <th><abbr title="Points">Punti</abbr></th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr *ngFor="let ts of teamScores; index as i" >
+                <th>{{i+1}}</th>
+                <th>{{ts.team}}</th>
+                <td>{{ts.g}}</td>
+                <td>{{ts.v}}</td>
+                <td>{{ts.n}}</td>
+                <td>{{ts.p}}</td>
+                <td>{{ts.gf}}</td>
+                <td>{{ts.gs}}</td>
+                <td>{{ts.dr}}</td>
+                <td>{{ts.points}}</td>
+            </tr>
+        </tbody>
+    </table>
+</section>

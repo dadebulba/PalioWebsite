@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiUrl : 'http://vps-bd92add6.vps.ovh.net:8055'
 };
 
 /*

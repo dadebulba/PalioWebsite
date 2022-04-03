@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FootballScore } from 'src/app/models/footbal-score';
+import { ApiService } from 'src/app/services/api.service';
 
 @Component({
   selector: 'app-scores',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ScoresComponent implements OnInit {
 
-  constructor() { }
+  public teamScores : FootballScore[] = []
+
+  constructor(private apiService : ApiService) {
+    this.apiService.getAllFootballScores()
+    .subscribe((result : FootballScore[]) => {
+      this.teamScores = result
+    })
+   }
 
   ngOnInit(): void {
+
   }
 
 }

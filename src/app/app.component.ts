@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'PalioWebsite';
   isBurgerOpen = false
+
+  public toggleMenu() {
+    console.log("Toggle menu", this.isBurgerOpen);
+    
+    this.isBurgerOpen = !this.isBurgerOpen
+  }
 }
