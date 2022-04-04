@@ -2,18 +2,18 @@ export const FAQS = {
     data: [
         {
             "id": 1,
-            "question": "test",
-            "answer": "test **test** *test* \n- asda\n- asda\n- asd"
+            "question": "Quanto costa l'iscrizione ai tornei?",
+            "answer": "Ci sono vari **prezzi**:\n- Calcio *x euro*\n- Volley *y euro*\n- Idrofobia *z euro*"
         },
         {
             "id": 2,
-            "question": "abc",
-            "answer": "qweqwe"
+            "question": "Serve il green pass?",
+            "answer": "Chiedilo all'ASL"
         },
         {
             "id": 3,
-            "question": "bcd",
-            "answer": "dadadadewqeq"
+            "question": "Posso chiamare i miei amici?",
+            "answer": "**Devi!**"
         }
     ]
 }
