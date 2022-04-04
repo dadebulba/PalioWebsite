@@ -7,6 +7,7 @@ import { FOOTBALL_RANKING_MOCK } from '../mocks/football_ranking';
 import { FAQ } from '../models/faq';
 import { FootballScore } from '../models/footbal-score';
 import { marked } from 'marked';
+import { FAQS } from '../mocks/faq';
 
 @Injectable({
   providedIn: 'root'
@@ -33,7 +34,8 @@ export class ApiService {
 
   public async getAllFaqs(): Promise<FAQ[]> {
     //return of(MOCKED_USERS);
-    const rawFaqs: any = await this.http.get<FAQ[]>(`${environment.apiUrl}/items/faq`).toPromise();
+    //const rawFaqs: any = await this.http.get<FAQ[]>(`${environment.apiUrl}/items/faq`).toPromise();
+    const rawFaqs: any = await of(FAQS).toPromise()
     console.log(rawFaqs.data)
     let faqs : FAQ[] = []
     for(const raw of rawFaqs.data) {
