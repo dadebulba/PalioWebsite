@@ -21,6 +21,10 @@
 <jw-modal id="custom-modal">
     <div class="modal-content" [innerHTML]="answer">
     </div>
+    <!--
     <button class="modal-close is-large" aria-label="close"></button>
-    <button class="button" (click)="closeModal('custom-modal');">Close</button>
+    -->
+    <div class="has-text-right">
+    <button class="button" (click)="closeModal('custom-modal');">Chiudi</button>
+    </div>
 </jw-modal>

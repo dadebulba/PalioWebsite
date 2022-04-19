@@ -34,8 +34,8 @@ export class ApiService {
 
   public async getAllFaqs(): Promise<FAQ[]> {
     //return of(MOCKED_USERS);
-    //const rawFaqs: any = await this.http.get<FAQ[]>(`${environment.apiUrl}/items/faq`).toPromise();
-    const rawFaqs: any = await of(FAQS).toPromise()
+    const rawFaqs: any = await this.http.get<FAQ[]>(`${environment.apiUrl}/items/faq`).toPromise();
+    //const rawFaqs: any = await of(FAQS).toPromise()
     console.log(rawFaqs.data)
     let faqs : FAQ[] = []
     for(const raw of rawFaqs.data) {

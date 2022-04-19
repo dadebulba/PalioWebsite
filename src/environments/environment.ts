@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl : 'http://vps-bd92add6.vps.ovh.net:8055'
+  apiUrl : 'https://admin.festantonio.it'
 };
 
 /*

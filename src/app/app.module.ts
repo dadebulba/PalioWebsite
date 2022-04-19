@@ -9,13 +9,15 @@ import { TournamentComponent } from './pages/tournament/tournament.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ModalModule } from './components/modal';
+import { GameComponent } from './pages/game/game.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ScoresComponent,
     TournamentComponent,
-    FaqComponent
+    FaqComponent,
+    GameComponent
   ],
   imports: [
     BrowserModule,
