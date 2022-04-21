@@ -9,7 +9,8 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'scores', component: ScoresComponent },
   { path: 'game/:id', component: GameComponent },
-  { path: 'iscrizioni', component: SubscriptionComponent }
+  { path: 'iscrizioni', component: SubscriptionComponent },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({

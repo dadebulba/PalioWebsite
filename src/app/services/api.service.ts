@@ -33,7 +33,6 @@ export class ApiService {
   }
 
   public async getAllFaqs(): Promise<FAQ[]> {
-    //return of(MOCKED_USERS);
     const rawFaqs: any = await this.http.get<FAQ[]>(`${environment.apiUrl}/items/faq`).toPromise();
     //const rawFaqs: any = await of(FAQS).toPromise()
     console.log(rawFaqs.data)
@@ -50,7 +49,7 @@ export class ApiService {
 
   }
 
-  public async getSubscriptionPage() : Promise<string> {
-    return this.http.get('/assets/md/subscription.md', {responseType: 'text'}).toPromise()
+  public async getPageMarkdown(name : string) : Promise<string> {
+    return this.http.get(`/assets/md/${name}.md`, {responseType: 'text'}).toPromise()
   }
 }

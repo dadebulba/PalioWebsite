@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { marked } from 'marked';
+import { ApiService } from 'src/app/services/api.service';
 
 @Component({
   selector: 'app-game',
@@ -7,9 +10,32 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GameComponent implements OnInit {
 
-  constructor() { }
+  title = ''
+  content = ''
+  constructor(private route: ActivatedRoute, private apiService: ApiService) { }
 
-  ngOnInit(): void {
+  async ngOnInit(): Promise<void> {
+    const gameName = this.route.snapshot.paramMap.get('id')?.toString()
+    switch(gameName) {
+      case 'calcetto':
+        this.title = 'Calcetto'
+        break
+      case 'saponato':
+        this.title = 'Calcio saponato'
+        break
+      case 'volley':
+        this.title = 'Volley saponato'
+        break
+      case 'idrofobia':
+        this.title = 'Idrofobia'
+        break
+      default:
+        this.title = 'Torneo'
+        break
+    }
+    console.log(gameName)
+    const markdownContent = await this.apiService.getPageMarkdown(gameName || '')
+    this.content = marked(markdownContent)
   }
 
 }

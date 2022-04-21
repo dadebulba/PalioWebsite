@@ -19,12 +19,12 @@
     </a>
 </article>
 <jw-modal id="custom-modal">
-    <div class="modal-content" [innerHTML]="answer">
+    <div [innerHTML]="answer">
     </div>
     <!--
     <button class="modal-close is-large" aria-label="close"></button>
     -->
     <div class="has-text-right">
-    <button class="button" (click)="closeModal('custom-modal');">Chiudi</button>
+    <button class="button mt-2" (click)="closeModal('custom-modal');">Chiudi</button>
     </div>
 </jw-modal>

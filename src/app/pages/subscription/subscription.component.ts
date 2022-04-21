@@ -15,7 +15,7 @@ export class SubscriptionComponent implements OnInit {
   }
 
   async ngOnInit(): Promise<void> {
-    const rulesMd = await this.apiService.getSubscriptionPage()
+    const rulesMd = await this.apiService.getPageMarkdown('subscription')
     this.rules = marked(rulesMd)
   }
 
