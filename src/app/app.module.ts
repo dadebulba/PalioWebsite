@@ -5,19 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ScoresComponent } from './pages/scores/scores.component';
-import { TournamentComponent } from './pages/tournament/tournament.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ModalModule } from './components/modal';
 import { GameComponent } from './pages/game/game.component';
+import { SubscriptionComponent } from './pages/subscription/subscription.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ScoresComponent,
-    TournamentComponent,
     FaqComponent,
-    GameComponent
+    GameComponent,
+    SubscriptionComponent
   ],
   imports: [
     BrowserModule,

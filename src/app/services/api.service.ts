@@ -49,4 +49,8 @@ export class ApiService {
     return faqs
 
   }
+
+  public async getSubscriptionPage() : Promise<string> {
+    return this.http.get('/assets/md/subscription.md', {responseType: 'text'}).toPromise()
+  }
 }
