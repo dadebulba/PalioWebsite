@@ -1,12 +1,12 @@
 ### La parrocchia di Sant'Antonio ha organizzato per quest'estate il torneo di Idrofobia!
 
-<p align="center" style="display: flex; flex-direction: row">
-  <img width="200" height="200" src="/assets/images/idrofobia.png">
+<p align="center">
+  <img width="250px" src="/assets/images/idrofobia.png">
 </p>
   
 Il gioco consiste nell'Ammacquare (ovvero bagnare) la vittima che viene assegnata. 
 
-Il sistema è perfettamente circolare, quindi ognuno ha una obiettivo e a sua volta è vittima diqualche altro partecipante.
+Il sistema è perfettamente circolare, quindi ognuno ha una obiettivo e a sua volta è vittima di qualche altro partecipante.
 
 
 Elimina tutti gli altri giocatorie rimani l'ultimo in gioco!

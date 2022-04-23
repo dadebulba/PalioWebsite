@@ -23,6 +23,26 @@
       <a class="navbar-item" routerLink="/iscrizioni" (click)="toggleMenu()">
         Iscrizioni
       </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Tornei
+        </a>
+
+        <div class="navbar-dropdown" [ngClass]="{'is-active': isSubOpen}">
+          <a class="navbar-item" routerLink="/game/calcio" (click)="toggleMenu()">
+            Calcio a 7
+          </a>
+          <a class="navbar-item" routerLink="/game/saponato" (click)="toggleMenu()">
+            Calcio saponato
+          </a>
+          <a class="navbar-item" routerLink="/game/volley" (click)="toggleMenu()">
+            Acqua volley
+          </a>
+          <a class="navbar-item" routerLink="/game/idrofobia" (click)="toggleMenu()">
+            Idrofobia
+          </a>
+        </div>
+      </div>
       <!--
       <a class="navbar-item" routerLink="/scores" (click)="toggleMenu()">
         Punteggi
@@ -55,7 +75,7 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-info" href="https://docs.google.com/forms/d/e/1FAIpQLSf3bw3ZhlCadrZWLT4tJZQppzv6SO2fe8bSCk4TlmFx-EdpuQ/viewform" target="_blank" (click)="toggleMenu()">
+          <a class="button is-info" href="https://docs.google.com/forms/d/e/1FAIpQLScWabtO2mgcpSlJvK08YILPseFynzz0g-v6NzbMiWH7PWErzg/viewform" target="_blank" (click)="toggleMenu()">
             <strong>Partecipa!</strong>
           </a>
         </div>

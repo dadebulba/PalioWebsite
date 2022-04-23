@@ -15,10 +15,11 @@ export class GameComponent implements OnInit {
   constructor(private route: ActivatedRoute, private apiService: ApiService) { }
 
   async ngOnInit(): Promise<void> {
-    const gameName = this.route.snapshot.paramMap.get('id')?.toString()
+    this.route.params.subscribe(param => {
+      const gameName = param.id.toString()
     switch(gameName) {
-      case 'calcetto':
-        this.title = 'Calcetto'
+      case 'calcio':
+        this.title = 'Calcio a 7'
         break
       case 'saponato':
         this.title = 'Calcio saponato'
@@ -34,8 +35,9 @@ export class GameComponent implements OnInit {
         break
     }
     console.log(gameName)
-    const markdownContent = await this.apiService.getPageMarkdown(gameName || '')
-    this.content = marked(markdownContent)
+    this.apiService.getPageMarkdown(gameName || '').then( res => this.content = marked(res))
+    }) 
+    
   }
 
 }
