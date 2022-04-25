@@ -16,4 +16,4 @@ Come convalidare l’iscrizione? Saranno predisposti degli stand nella [Parrocch
 - Quota di partecipazione al/ai torneo/i
 
 Non è obbligatorio che ogni componente della squadra si presenti agli stand per iscriversi, basta anche 1 solo componente della squadra con tutti i documenti di ogni singolo componente della squadra.
-Per qualsiasi dubbio è possibile inviare una mail a [segreteria.festantonio@gmail.com](mailto:segreteria.festantonio@gmail.com) oppure inviare un messaggio sui vari social di FestAntonio come [Instagram](https://www.instagram.com/festantonio22) o [Facebook](https://www.facebook.com/festAntonio2022).
+Per qualsiasi dubbio è possibile inviare una mail a [segreteria@festantonio.it](mailto:segreteria@festantonio.it) oppure inviare un messaggio sui vari social di FestAntonio come [Instagram](https://www.instagram.com/festantonio22) o [Facebook](https://www.facebook.com/festAntonio2022).
