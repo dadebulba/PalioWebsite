@@ -11,7 +11,7 @@ Il sistema è perfettamente circolare, quindi ognuno ha una obiettivo e a sua vo
 
 Elimina tutti gli altri giocatorie rimani l'ultimo in gioco!
 
-Ammacqua il tuo obiettivo prima diessere ammacquato a tua volta!
+Ammacqua il tuo obiettivo prima di essere ammacquato a tua volta!
 
 Le iscrizioni sono aperte a tutti i residenti di Sant'Antonio, Bancole, Colle Aperto e Quartiere Rabin a partire dal giorno **30 Aprile** fino al **15 Maggio**.
 
