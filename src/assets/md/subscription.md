@@ -15,7 +15,9 @@ Come convalidare l’iscrizione? Saranno predisposti degli stand nella [Parrocch
 - Documento di riconoscimento (carta d’identità e/o patente) 
 - Quota di partecipazione al/ai torneo/i
 
+**Verrà pubblicato a breve sul sito e canali social un calendario con date e orari per recarsi in Parrocchia ad iscriversi ufficialmente.**
+
 Non è obbligatorio che ogni componente della squadra si presenti agli stand per iscriversi, basta anche 1 solo componente della squadra con tutti i documenti di ogni singolo componente della squadra.
 Per qualsiasi dubbio è possibile inviare una mail a [segreteria@festantonio.it](mailto:segreteria@festantonio.it) oppure inviare un messaggio sui vari social di FestAntonio come [Instagram](https://www.instagram.com/festantonio22) o [Facebook](https://www.facebook.com/festAntonio2022).
 
-**Verrà pubblicato a breve sul sito e canali social un calendario con date e orari per recarsi in Parrocchia ad iscriversi ufficialmente.**
+
