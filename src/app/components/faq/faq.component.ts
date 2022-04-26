@@ -29,7 +29,7 @@ export class FaqComponent implements OnInit {
   public onSearch(event: any) {
     this.searchText = event
     if (this.searchText.length > 0) {
-      this.shownFaqs = this.faqs.filter(faq => faq.question.includes(this.searchText))
+      this.shownFaqs = this.faqs.filter(faq => faq.question.toLocaleLowerCase().includes(this.searchText))
     }
     else {
       this.shownFaqs = [...this.faqs]

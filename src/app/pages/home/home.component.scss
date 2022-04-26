@@ -40,23 +40,27 @@
 }
 
 #insta {
-    color: rgba(225, 48, 108,1);
+    color: rgba(250,180,19,1);
 }
 
 #insta:hover {
-    color: rgba(225, 48, 108,0.8);
+    color: rgba(250,180,19,0.8);
 }
 
 #fb {
-    color: rgb(63, 107, 196);
+    color: rgb(250,180,19);
 }
 
 #fb:hover {
-    color: rgba(63, 107, 196,0.8);
+    color: rgba(250,180,19,0.8);
 }
 
 @media screen and (min-width: 1025px) {
     .short-desc {
         min-height: 120px;
     }
+}
+
+.shadow {
+    text-shadow: 2px 0px 10px #000000;
 }
