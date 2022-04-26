@@ -7,7 +7,7 @@
 
 Idrofobia è un gioco in cui i partecipanti devono "ammacquare" il proprio obiettivo usando una pistola d'acqua. L'ultimo che rimane in gioco o chi "ammacqua" più persone, vince!
 
-Il gioco consiste nell'ammacquare (ovvero bagnare) la vittima che viene assegnata.
+Il gioco consiste nell'ammacquare (ovvero bagnare) la vittima che viene assegnata con una pistolina d'acqua.
 
 Il sistema è perfettamente circolare, quindi ognuno ha un obiettivo e a sua volta è vittima di qualche altro partecipante.
 
