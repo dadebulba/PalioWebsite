@@ -20,9 +20,11 @@
     "@angular/platform-browser-dynamic": "~11.0.9",
     "@angular/router": "~11.0.9",
     "@fortawesome/fontawesome-free": "^6.1.1",
+    "angular-responsive-carousel": "^2.1.2",
     "bulma": "^0.9.3",
     "marked": "^4.0.12",
     "rxjs": "~6.6.0",
+    "tiny-slider": "^2.9.2",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },

@@ -154,7 +154,21 @@
 
     </div>
 </section>
-
+<section class="section">
+    <carousel 
+        [images]="images"
+        [objectFit]="'cover'"
+        [cellsToShow]="cellsToShow"
+        [height]="cellHeight"
+        [autoplay]="true"
+        [loop]="true"
+        [autoplayInterval]="2000"
+        [pauseOnHover]="true"
+        [arrows]="false"
+        [images]="images"
+    >
+    </carousel>
+</section>
 <section class="section is-small">
     <app-faq></app-faq>
 </section>

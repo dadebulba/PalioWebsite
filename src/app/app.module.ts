@@ -10,6 +10,8 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ModalModule } from './components/modal';
 import { GameComponent } from './pages/game/game.component';
 import { SubscriptionComponent } from './pages/subscription/subscription.component';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,8 @@ import { SubscriptionComponent } from './pages/subscription/subscription.compone
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    ModalModule
+    ModalModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
