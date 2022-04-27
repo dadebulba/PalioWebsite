@@ -11,9 +11,15 @@ export class AppComponent {
   isSubOpen = true
 
   public toggleMenu() {
-      console.log("Toggle menu", this.isBurgerOpen);
+    console.log("Toggle menu", this.isBurgerOpen);
 
-      this.isBurgerOpen = !this.isBurgerOpen
+    this.isBurgerOpen = !this.isBurgerOpen
 
+  }
+
+  scroll(el: string) {
+    const element = document.querySelector(el)
+    element ? element.scrollIntoView({behavior: "smooth"}): null;
+    this.toggleMenu()
   }
 }

@@ -138,37 +138,32 @@
 <section class="section">
     <h1 class="title has-text-centered">I nostri sponsor!</h1>
     <h2 class="subtitle has-text-centered">
-        Ecco un elenco dei nostri sponsor <strong>ufficiali</strong>.
+        Ecco un elenco dei nostri sponsor ufficiali, <strong>clicca</strong> sui loghi per andare alle loro pagine web!
     </h2>
     <div class="container is-flex is-flex-wrap-wrap is-justify-content-space-evenly ">
         <figure class="image sponsor">
             <a href="https://www.facebook.com/nikerfitness/" target="_blank">
-                <img src="../../../assets/images/sponsors/LOGO NIKER FITNESS.jpg">
+                <img src="../../../assets/images/sponsors/LOGO_NIKER_FITNESS.jpg">
             </a>
         </figure>
         <figure class="image sponsor">
             <a href="https://www.facebook.com/FollieAcconciature1/" target="_blank">
-                <img src="../../../assets/images/sponsors/follie_acconciature.jpg">
+                <img src="../../../assets/images/sponsors/follie_acc.jpg">
+            </a>
+        </figure>
+        <figure class="image sponsor">
+            <a href="https://www.hobbyauto.it/" target="_blank">
+                <img src="../../../assets/images/sponsors/hobby-auto.jpg">
+            </a>
+        </figure>
+        <figure class="image sponsor">
+            <a href="https://solelunaesteticaebenessere.it" target="_blank">
+                <img src="../../../assets/images/sponsors/SOLELUNA.png">
             </a>
         </figure>
 
     </div>
 </section>
-<section class="section">
-    <carousel 
-        [images]="images"
-        [objectFit]="'cover'"
-        [cellsToShow]="cellsToShow"
-        [height]="cellHeight"
-        [autoplay]="true"
-        [loop]="true"
-        [autoplayInterval]="2000"
-        [pauseOnHover]="true"
-        [arrows]="false"
-        [images]="images"
-    >
-    </carousel>
-</section>
-<section class="section is-small">
+<section class="section is-small" id="faq-section" #faq>
     <app-faq></app-faq>
 </section>
