@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +11,10 @@ export class AppComponent {
   isBurgerOpen = false
   isSubOpen = true
 
+  constructor(private router: Router) {
+
+  }
+
   public toggleMenu() {
     console.log("Toggle menu", this.isBurgerOpen);
 
@@ -18,8 +23,17 @@ export class AppComponent {
   }
 
   scroll(el: string) {
-    const element = document.querySelector(el)
-    element ? element.scrollIntoView({behavior: "smooth"}): null;
+    if (this.router.routerState.snapshot.url != '/') {
+      this.router.navigate(['/']).then(() => {
+        const element = document.querySelector(el)
+        element ? element.scrollIntoView({ behavior: "smooth" }) : null;
+      })
+    }
+    else {
+      const element = document.querySelector(el)
+      element ? element.scrollIntoView({ behavior: "smooth" }) : null;
+    }
+
     this.toggleMenu()
   }
 }
