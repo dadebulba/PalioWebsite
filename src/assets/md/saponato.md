@@ -49,12 +49,11 @@ ordine qui sotto:
   - Spareggio ai calci di rigore (5 per squadra e poi ad oltranza)
 - Nelle fasi finali le partite sono secche e in caso di parità si procede con i calci di rigore. (5 per
 squadra e poi ad oltranza)
-- Le scivolate sono considerate fallose se effettuate a meno di una striscia colorata di distanza, ovvero
-a meno di 3 metri di distanza dall’avversario.
-Spinte, gomitate, pugni, ecc. sono considerati falli.
-È considerato fallo anche il retropassaggio al portiere se la palla non ha prima superato la metà
-campo o è stata toccata da un avversario. Il portiere inoltre non può prendere il retropassaggio con
-le mani.
+- Le scivolate sono considerate fallose se effettuate a meno di una striscia colorata di distanza, ovvero a meno di 3 metri di distanza dall’avversario.
+
+    Spinte, gomitate, pugni, ecc. sono considerati falli.
+
+    **È considerato fallo anche il retropassaggio al portiere se la palla non ha prima superato la metà campo o è stata toccata da un avversario. Il portiere inoltre non può prendere il retropassaggio con le mani.**
 - L’arbitro esprime un giudizio insindacabile e assoluto e le sanzioni previste sono:
   - ammonizione: cartellino giallo e richiamo alla disciplina di chi commette fallo
   - espulsione: cartellino rosso, somma di 2 cartellini gialli o fallo dettato da cattiveria e non coscienza dell’avversario. Comporta l'esclusione dall’area di gioco.
