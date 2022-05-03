@@ -21,7 +21,7 @@ import { SubscriptionComponent } from './pages/subscription/subscription.compone
     SubscriptionComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
