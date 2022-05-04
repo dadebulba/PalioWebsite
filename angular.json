@@ -28,8 +28,7 @@
             "aot": true,
             "assets": [
               "src/assets",
-              "src/_redirects",
-              "src/_headers"
+              "src/_redirects"
             ],
             "styles": [
               "src/styles.scss",
