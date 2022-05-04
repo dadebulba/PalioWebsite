@@ -1,26 +1,26 @@
 ## Ammacqua il tuo obiettivo prima di essere ammacquato a tua volta!
 
-Idrofobia è un gioco competitivo i cui partecipanti devono "ammacquare" (ovvero bagnare) il proprio obiettivo segreto utilizzando una pistola d'acqua. Non ci sono limiti di spazio e non ci sono arbitri sarete soltanto voi stessi e la vostra fantasia.
+Idrofobia è un gioco competitivo i cui partecipanti devono "ammacquare" (ovvero bagnare) il proprio obiettivo segreto utilizzando una pistola ad acqua. Non ci sono limiti di spazio e non ci sono arbitri sarete soltanto voi stessi e la vostra fantasia.
 
 Per "obiettivo" si intende un altro partecipante assegnato da un software, una volta eliminato te ne verrà destinato un altro seguendo un sistema circolare, quindi la tua vittima successiva sarà la vittima della tua vittima.
 
 ### Vittoria
-L'ultimo che rimane in gioco o chi "ammacqua" più persone nel minor tempo **vincerà una bici nuovissima dal valore di 300 euro** fornita dal nostro sponsor [Ciclofficina Errante](https://ciclofficinaerrante.it/).
+L'ultimo che rimane in gioco o chi "ammacqua" più persone nel minor tempo **vincerà una bici nuovissima del valore di 300 euro** fornita dal nostro sponsor [Ciclofficina Errante](https://ciclofficinaerrante.it/).
 
 <p align="center">
   <img width="250px" src="/assets/images/bike.jpg"><br>
-  <i>Bici esemplificativa dal valore corrispondente al premio</i>
+  <i>Bici esemplificativa del valore corrispondente al premio</i>
 </p>
 
 ### Come partecipare
 I requisiti per partecipare sono:
-- Essere residenti a Sant'Antonio, Bancole, Colle Aperto o quartiere Rabin.
-- Avere compiuto i 14 anni di età
+- Essere residenti presso uno dei seguenti luoghi: Sant'Antonio, Bancole, Montata Carra, Mantovanella, Colle Aperto, Cittadella o quartiere Rabin.
+- Avere compiuto i 14 anni di età (annata 2008 inclusa)
 - Compilare i moduli che trovi nella [sezione iscrizioni](https://festantonio.it/iscrizioni)
-- Versare una quota di 10€ in fase di iscrizione, inclusa nella quota ti verrà consegnata una pistolina d'acqua e una maglietta evento.
+- Versare una quota di 10€ in fase di iscrizione, inclusa nella quota ti verrà consegnata una pistola ad acqua e una maglietta evento.
 - Scaricare l'app Telegram sul telefono
 
-Per partecipare puoi preiscriversi sul sito compilando il [form di preiscirione](https://docs.google.com/forms/d/e/1FAIpQLScWabtO2mgcpSlJvK08YILPseFynzz0g-v6NzbMiWH7PWErzg/viewform).
+Per partecipare puoi preiscriverti sul sito compilando il [form di preiscirione](https://docs.google.com/forms/d/e/1FAIpQLScWabtO2mgcpSlJvK08YILPseFynzz0g-v6NzbMiWH7PWErzg/viewform).
 In seguito è **necessario** portare i moduli compilati e la quota di iscrizione di 10€ nei punti e nelle date indicati sulla [pagina iscrizioni](https://festantonio.it/iscrizioni).
 
 Il gioco inizierà per tutti il 20 Maggio, e sarà gestito da un bot Telegram, indispensabile da avere per partecipare. Puoi già accedere al bot da qui: [@idrofobia_bot](https://t.me/idrofobia_bot)
@@ -40,7 +40,7 @@ Per giocare sarà fondamentale utilizzare un bot Telegram sviluppato da noi. Acc
 **I comandi principali da lanciare in chat sono due**:
 - Il comando `/start`: serve a far partire il bot, da lanciare in qualsiasi momento **prima** che parta il gioco.
 - Il comando `/get_status`: da qui puoi ricevere i dettagli del tuo prossimo obiettivo (foto, residenza, nome e cognome). Inoltre puoi controllare il tuo *killCode* super segreto nel caso te lo fossi dimenticato.
-- Il comando `/kill_target`: lanciando questo comando ti verrà chiesto di inserire il codice a 10 cifre che il tuo obiettivo. In caso di codice corretto potrai procedere verso la tua prossima vittima.
+- Il comando `/kill_target`: lanciando questo comando ti verrà chiesto di inserire il codice a 10 cifre che il tuo obiettivo ti dovrà comunicare dopo essere stato "ammacquato". In caso di codice corretto potrai procedere verso la tua prossima vittima.
 
 A questo punto è tutto nelle tue mani: trova e ammacqua!
  
@@ -53,7 +53,7 @@ In caso contrario, per qualsiasi domanda o problemi che potresti riscontrare dur
 ### FAQ
  
 **Devo uccidere per forza utilizzando la pistola fornita?**
-NO! Noi forniamo soltanto uno strumento, ma l'unico vincolo è utilizzare l'acqua.
+NO! Noi forniamo soltanto uno strumento, ma l'unico vincolo è utilizzare l'acqua (senza esagerare...).
  
 **Posso ammaquare una persona diversa dal mio obiettivo?**
 NO! Perché il gioco riesca bisogna concentrarsi solo e soltanto sulla propria vittima, ogni altro codice non sarà validato.
