@@ -23,7 +23,7 @@ I requisiti per partecipare sono:
 Per partecipare puoi preiscriversi sul sito compilando il [form di preiscirione](https://docs.google.com/forms/d/e/1FAIpQLScWabtO2mgcpSlJvK08YILPseFynzz0g-v6NzbMiWH7PWErzg/viewform).
 In seguito è **necessario** portare i moduli compilati e la quota di iscrizione di 10€ nei punti e nelle date indicati sulla [pagina iscrizioni](https://festantonio.it/iscrizioni).
 
-Il gioco inizierà per tutti il 20 Maggio, e sarà gestito da un bot Telegram, indispensabile da avere per partecipare. Puoi già accedere al bot da qui: [@idrofobia_support_bot](https://t.me/idrofobia_support_bot)
+Il gioco inizierà per tutti il 20 Maggio, e sarà gestito da un bot Telegram, indispensabile da avere per partecipare. Puoi già accedere al bot da qui: [@idrofobia_bot](https://t.me/idrofobia_bot)
  
 ### Come funziona il gioco
 
@@ -48,7 +48,7 @@ A questo punto è tutto nelle tue mani: trova e ammacqua!
 
 **Consulta le FAQ**, potresti trovare già la risposta che stai cercando.
 
-In caso contrario, per qualsiasi domanda o problemi che potresti riscontrare durante il gioco, abbiamo realizzato un canale di supporto dedicato: [@idrofobia_bot](https://t.me/idrofobia_support_bot)
+In caso contrario, per qualsiasi domanda o problemi che potresti riscontrare durante il gioco, abbiamo realizzato un canale di supporto dedicato: [@idrofobia_support_bot](https://t.me/idrofobia_support_bot)
 
 ### FAQ
  
