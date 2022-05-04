@@ -33,6 +33,8 @@ Una volta recuperate le informazioni del tuo obiettivo, il tuo compito sarà tro
 
 Se vieni ammacquato da qualcuno sei **obbligato** a consegnare il tuo *killCode* e per te sarà purtroppo Game Over.
 
+Nel caso in cui il gioco entri in una situazione di stallo per un tempo prolungato di giorni (per esempio una settimana), lo staff si riserva di eliminare i giocatori inattivi. Infatti nel caso in cui uno non si faccia trovare per non essere ammacquato e/o non vada in giro per cercare di ammacquare il proprio bersaglio, il proprio killer non sarebbe in grado di giocare. Verrete comunque avvisati prima che questo processo di scrematura straordinaria venga attuato.
+
 ### Chatbot
 
 Per giocare sarà fondamentale utilizzare un bot Telegram sviluppato da noi. Accedi al bot da questo link:  [@idrofobia_bot](https://t.me/idrofobia_bot)
@@ -62,4 +64,8 @@ NO! Perché il gioco riesca bisogna concentrarsi solo e soltanto sulla propria v
 Assolutamente sì. Sono ben accetti travestimenti, attacchi di soppiatto, appostamenti e chi più ne ha più ne metta!
  
 **Possono giocare anche minorenni?**
-Sì, l'unico vincolo di età è avere 14 anni compiuti.
+Sì, l'unico vincolo di età è avere 14 anni (annata 2008 inclusa).
+
+**Cosa succede se non trovo il mio target?**
+Nel caso in cui il gioco entri in una situazione di stallo per un tempo prolungato di giorni (per esempio una settimana), lo staff si riserva di eliminare i giocatori inattivi. Infatti nel caso in cui uno non si faccia trovare per non essere ammacquato e/o non vada in giro per cercare di ammacquare il proprio bersaglio, il proprio killer non sarebbe in grado di giocare. Verrete comunque avvisati prima che questo processo di scrematura straordinaria venga attuato.
+
