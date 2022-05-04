@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'scores', component: ScoresComponent },
   { path: 'game/:id', component: GameComponent },
   { path: 'iscrizioni', component: SubscriptionComponent },
+  { path: 'idrofobia', redirectTo: 'game/idrofobia'},
   { path: '**', redirectTo: '' }
 ];
 
