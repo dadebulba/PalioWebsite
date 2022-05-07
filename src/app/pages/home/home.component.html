@@ -134,41 +134,19 @@
         </div>
     </div>
 </section>
-
+<section class="section is-small" id="faq-section" #faq>
+    <app-faq></app-faq>
+</section>
 <section class="section">
     <h1 class="title has-text-centered">I nostri sponsor!</h1>
     <h2 class="subtitle has-text-centered">
         Ecco un elenco dei nostri sponsor ufficiali, <strong>clicca</strong> sui loghi per visitare le loro pagine web!
     </h2>
-    <div class="container is-flex is-flex-wrap-wrap is-justify-content-space-evenly ">
-        <figure class="image sponsor">
-            <a href="https://www.facebook.com/nikerfitness/" target="_blank">
-                <img src="../../../assets/images/sponsors/LOGO_NIKER_FITNESS.jpg">
+    <div class="container is-flex is-flex-wrap-wrap is-justify-content-space-evenly">
+        <figure class="image sponsor" *ngFor="let sp of sponsors">
+            <a [href]="sp.website" target="_blank">
+                <img [src]="'../../../assets/images/sponsors/' + sp.image">
             </a>
         </figure>
-        <figure class="image sponsor">
-            <a href="https://www.facebook.com/FollieAcconciature1/" target="_blank">
-                <img src="../../../assets/images/sponsors/follieacc.jpg">
-            </a>
-        </figure>
-        <figure class="image sponsor">
-            <a href="https://www.hobbyauto.it/" target="_blank">
-                <img src="../../../assets/images/sponsors/hobby-auto.jpg">
-            </a>
-        </figure>
-        <figure class="image sponsor">
-            <a href="https://solelunaesteticaebenessere.it" target="_blank">
-                <img src="../../../assets/images/sponsors/SOLELUNA.png">
-            </a>
-        </figure>
-        <figure class="image sponsor">
-            <a href="https://www.pelabellers.com/" target="_blank">
-                <img src="../../../assets/images/sponsors/pe.jpg">
-            </a>
-        </figure>
-
     </div>
-</section>
-<section class="section is-small" id="faq-section" #faq>
-    <app-faq></app-faq>
 </section>

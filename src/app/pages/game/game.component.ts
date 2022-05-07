@@ -25,7 +25,7 @@ export class GameComponent implements OnInit {
         this.title = 'Calcio saponato'
         break
       case 'volley':
-        this.title = 'Volley saponato'
+        this.title = 'Volley acquatico'
         break
       case 'idrofobia':
         this.title = 'Idrofobia'

@@ -20,7 +20,7 @@ I requisiti per partecipare sono:
 - Versare una quota di 10€ in fase di iscrizione, inclusa nella quota ti verrà consegnata una pistola ad acqua e una maglietta evento.
 - Scaricare l'app Telegram sul telefono
 
-Per partecipare puoi preiscriverti sul sito compilando il [form di preiscirione](https://docs.google.com/forms/d/e/1FAIpQLScWabtO2mgcpSlJvK08YILPseFynzz0g-v6NzbMiWH7PWErzg/viewform).
+Per partecipare puoi preiscriverti sul sito compilando il [form di preiscrizione](https://docs.google.com/forms/d/e/1FAIpQLScWabtO2mgcpSlJvK08YILPseFynzz0g-v6NzbMiWH7PWErzg/viewform).
 In seguito è **necessario** portare i moduli compilati e la quota di iscrizione di 10€ nei punti e nelle date indicati sulla [pagina iscrizioni](https://festantonio.it/iscrizioni).
 
 Il gioco inizierà per tutti il 20 Maggio, e sarà gestito da un bot Telegram, indispensabile da avere per partecipare. Puoi già accedere al bot da qui: [@idrofobia_bot](https://t.me/idrofobia_bot)
