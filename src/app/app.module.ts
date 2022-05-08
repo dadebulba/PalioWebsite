@@ -10,6 +10,7 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ModalModule } from './components/modal';
 import { GameComponent } from './pages/game/game.component';
 import { SubscriptionComponent } from './pages/subscription/subscription.component';
+import { BracketComponent } from './components/bracket/bracket.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SubscriptionComponent } from './pages/subscription/subscription.compone
     ScoresComponent,
     FaqComponent,
     GameComponent,
-    SubscriptionComponent
+    SubscriptionComponent,
+    BracketComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
