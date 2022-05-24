@@ -22,26 +22,10 @@ Per qualsiasi dubbio è possibile inviare una mail a [segreteria@festantonio.it]
 ### Calendario iscrizioni
 Durante queste date almeno 2 persone della segreteria saranno presenti per raccogliere moduli e quote delle iscrizioni e per vari chiarimenti. 
 
-Lunedì 2 maggio dalle 17.30 alle 19.30
+Lunedì dalle 17.30 alle 19.30
 
-Mercoledì 4 maggio dalle 17.30 alle 19.30
+Mercoledì dalle 17.30 alle 19.30
 
-Venerdì 6 maggio dalle 21 alle 22.30
+Venerdì dalle 21 alle 22.30
 
-Sabato 7 maggio dalle 10 alle 12
-
-Lunedì 9 maggio dalle 17.30 alle 19.30
-
-Mercoledì 11 maggio dalle 17.30 alle 19.30
-
-Venerdì 13 maggio dalle 21 alle 22.30
-
-Sabato 14 maggio dalle 10 alle 12
-
-Lunedì 16 maggio dalle 17.30 alle 19.30
-
-Mercoledì 18 maggio dalle 17.30 alle 19.30
-
-Venerdì 20 maggio dalle 21 alle 22.30
-
-Sabato 21 maggio dalle 10 alle 12
+Sabato dalle 10 alle 12
