@@ -32,12 +32,53 @@ export class ApiService {
 
   }
 
+  public async getCalendar(kind: 'Volley' | 'Calcio'): Promise<any[]> {
+    const rawCalendar: any = await this.http.get(`${environment.apiUrl}/items/Calendario`).toPromise();
+    let calendar = []
+
+    if (kind == 'Calcio') {
+      calendar = rawCalendar.data.filter((cal: any) => cal.TORNEO == 'Calcio a 7')
+    }
+    else {
+      calendar = rawCalendar.data.filter((cal: any) => cal.TORNEO == 'Acqua Volley')
+    }
+
+    for(const cal of calendar) {
+      cal.Data = new Date(cal.Data).toLocaleString()
+    }
+
+    calendar.sort((a:any, b:any) => b.data - a.data)
+    return calendar
+  }
+
+  public async getTournaments(kind: 'Volley' | 'Calcio'): Promise<Map<string, any>> {
+    const rawTournament: any = await this.http.get(`${environment.apiUrl}/items/tornei`).toPromise();
+    let tournamentArray = []
+
+    if (kind == 'Calcio') {
+      tournamentArray = rawTournament.data.filter((cal: any) => cal.SPORT == 'Calcio a 7')
+    }
+    else {
+      tournamentArray = rawTournament.data.filter((cal: any) => cal.SPORT == 'Acqua Volley')
+    }
+    tournamentArray.sort((a:any, b:any) => b.GIRONE - a.GIRONE)
+    const groups = tournamentArray.map((tour: any) => tour.GIRONE)
+    let tournamentsMap = new Map()
+    for(const g of groups) {
+      tournamentsMap.set(g, tournamentArray.filter((tour:any) => tour.GIRONE == g))
+    }
+    tournamentsMap = new Map([...tournamentsMap].sort((a, b) => String(a[0]).localeCompare(b[0])))
+    console.log(tournamentsMap);
+    
+    return tournamentsMap
+  }
+
   public async getAllFaqs(): Promise<FAQ[]> {
     const rawFaqs: any = await this.http.get<FAQ[]>(`${environment.apiUrl}/items/faq`).toPromise();
     //const rawFaqs: any = await of(FAQS).toPromise()
     console.log(rawFaqs.data)
-    let faqs : FAQ[] = []
-    for(const raw of rawFaqs.data) {
+    let faqs: FAQ[] = []
+    for (const raw of rawFaqs.data) {
       faqs.push({
         id: raw.id,
         question: raw.question,
@@ -49,7 +90,7 @@ export class ApiService {
 
   }
 
-  public async getPageMarkdown(name : string) : Promise<string> {
-    return this.http.get(`/assets/md/${name}.md`, {responseType: 'text'}).toPromise()
+  public async getPageMarkdown(name: string): Promise<string> {
+    return this.http.get(`/assets/md/${name}.md`, { responseType: 'text' }).toPromise()
   }
 }

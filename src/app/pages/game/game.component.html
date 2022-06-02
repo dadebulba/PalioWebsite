@@ -8,6 +8,64 @@
         </p>
     </div>
 </section>
+<section class="section" *ngIf="title == 'Calcio a 7' || title == 'Volley acquatico'">
+    <h1 class="title">Calendario partite {{title}}</h1>
+    <table class="table ml-auto mr-auto">
+        <thead>
+            <tr>
+                <th><abbr title="Date">Data</abbr></th>
+                <th><abbr title="Team_1">Squadra 1</abbr></th>
+                <th><abbr title="Team_2">Squadra 2</abbr></th>
+                <th><abbr title="Result">Risultato</abbr></th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th><abbr title="Date">Data</abbr></th>
+                <th><abbr title="Team_1">Squadra 1</abbr></th>
+                <th><abbr title="Team_2">Squadra 2</abbr></th>
+                <th><abbr title="Result">Risultato</abbr></th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr *ngFor="let game of calendar; index as i">
+                <th>{{game.Data.toLocaleString()}}</th>
+                <td>{{game.Squadra_1}}</td>
+                <td>{{game.Squadra_2}}</td>
+                <td>{{game.Risultato || 'Da giocare'}}</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section class="section" *ngIf="title == 'Calcio a 7' || title == 'Volley acquatico'">
+    <h1 class="title">Gironi {{title}}</h1>
+    <div *ngFor="let key of tournament.keys()">
+        <h2 class="subtitle">Girone {{key}}</h2>
+        <table class="table ml-auto mr-auto">
+            <thead>
+                <tr>
+                    <th><abbr title="team">Squadra</abbr></th>
+                    <th><abbr title="points">Punteggio</abbr></th>
+                    <th><abbr title="note">Note</abbr></th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th><abbr title="team">Squadra</abbr></th>
+                    <th><abbr title="points">Punteggio</abbr></th>
+                    <th><abbr title="note">Note</abbr></th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr *ngFor="let team of tournament.get(key); index as i">
+                    <th>{{team.SQUADRA}}</th>
+                    <td>{{team.PUNTEGGIO}}</td>
+                    <td>{{team.NOTE}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
 <section class="section">
     <div class="content" [innerHTML]="content"></div>
 </section>
