@@ -40,22 +40,15 @@
 <section class="section" *ngIf="title == 'Calcio a 7' || title == 'Volley acquatico'">
     <h1 class="title">Gironi {{title}}</h1>
     <div *ngFor="let key of tournament.keys()">
-        <h2 class="subtitle">Girone {{key}}</h2>
+        <h2 class="subtitle has-text-centered mt-4">Girone {{key}}</h2>
         <table class="table ml-auto mr-auto">
             <thead>
                 <tr>
-                    <th><abbr title="team">Squadra</abbr></th>
+                    <th><abbr title="team">Squadra Girone {{key}}</abbr></th>
                     <th><abbr title="points">Punteggio</abbr></th>
                     <th><abbr title="note">Note</abbr></th>
                 </tr>
             </thead>
-            <tfoot>
-                <tr>
-                    <th><abbr title="team">Squadra</abbr></th>
-                    <th><abbr title="points">Punteggio</abbr></th>
-                    <th><abbr title="note">Note</abbr></th>
-                </tr>
-            </tfoot>
             <tbody>
                 <tr *ngFor="let team of tournament.get(key); index as i">
                     <th>{{team.SQUADRA}}</th>
