@@ -8,7 +8,7 @@
         </p>
     </div>
 </section>
-<section class="section" *ngIf="title == 'Calcio a 7' || title == 'Volley acquatico'">
+<section class="section" *ngIf="title == 'Calcio a 7' || title == 'Acqua Volley'">
     <h1 class="title">Calendario partite {{title}}</h1>
     <table class="table ml-auto mr-auto">
         <thead>
@@ -37,7 +37,7 @@
         </tbody>
     </table>
 </section>
-<section class="section" *ngIf="title == 'Calcio a 7' || title == 'Volley acquatico'">
+<section class="section" *ngIf="title == 'Calcio a 7' || title == 'Acqua Volley'">
     <h1 class="title">Gironi {{title}}</h1>
     <div *ngFor="let key of tournament.keys()">
         <h2 class="subtitle has-text-centered mt-4">Girone {{key}}</h2>

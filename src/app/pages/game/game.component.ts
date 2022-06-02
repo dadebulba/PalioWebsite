@@ -33,7 +33,7 @@ export class GameComponent implements OnInit {
           this.title = 'Calcio saponato'
           break
         case 'volley':
-          this.title = 'Volley acquatico'
+          this.title = 'Acqua Volley'
           this.calendar = await this.apiService.getCalendar('Volley')
           this.tournament = await this.apiService.getTournaments('Volley')
           break
