@@ -42,12 +42,13 @@ export class ApiService {
     else {
       calendar = rawCalendar.data.filter((cal: any) => cal.TORNEO == 'Acqua Volley')
     }
-
+    
+    calendar.sort((a:any, b:any) => new Date(a.Data).getTime() - new Date(b.Data).getTime())
+    
     for(const cal of calendar) {
       cal.Data = new Date(cal.Data).toLocaleString()
     }
 
-    calendar.sort((a:any, b:any) => b.data - a.data)
     return calendar
   }
 
@@ -65,7 +66,7 @@ export class ApiService {
     const groups = tournamentArray.map((tour: any) => tour.GIRONE)
     let tournamentsMap = new Map()
     for(const g of groups) {
-      tournamentsMap.set(g, tournamentArray.filter((tour:any) => tour.GIRONE == g))
+      tournamentsMap.set(g, tournamentArray.filter((tour:any) => tour.GIRONE == g).sort((a: any, b: any) => b.PUNTEGGIO - a.PUNTEGGIO))
     }
     tournamentsMap = new Map([...tournamentsMap].sort((a, b) => String(a[0]).localeCompare(b[0])))
     console.log(tournamentsMap);
